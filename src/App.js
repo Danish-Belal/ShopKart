@@ -1,16 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
-import Login from '../src/components/Login'
-import SignUp from './components/Signup';
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "../src/components/Login";
+import SignUp from "./components/Signup";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Login /> */}
-      <SignUp />
-    </div>
+    <>
+    <BrowserRouter>
+    <Routes>
+      
+    </Routes>
+    </BrowserRouter>
+    
+    </>
   );
 }
 
